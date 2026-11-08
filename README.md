@@ -20,4 +20,4 @@ npm run preview    # serves dist/ at http://localhost:4173
 
 ## Content
 - Text for skills / experience: `src/data.ts`
-- Hero photo: pass `src` to `<PhotoPlaceholder />` in `src/components/Hero.tsx` (e.g. import an image from `src/assets`).
+- Hero photo: put your image at `public/avatar.png` (used by `<PhotoPlaceholder />` in `src/components/Hero.tsx`; without a `src` it falls back to the "LS" circle).

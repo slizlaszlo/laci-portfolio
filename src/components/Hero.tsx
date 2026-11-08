@@ -21,7 +21,7 @@ export function Hero() {
             <Button href={LINKEDIN_URL} variant="secondary" external>LinkedIn</Button>
           </div>
         </div>
-        <PhotoPlaceholder />
+        <PhotoPlaceholder src={`${import.meta.env.BASE_URL}avatar.png`} />
       </Container>
     </section>
   )
